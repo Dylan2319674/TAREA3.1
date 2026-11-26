@@ -1,7 +1,7 @@
 <html>
 <head></head>
 <body>
-    <form action="recibe_opciones.php" method="POST">
+    <form action="resultados.php" method="POST">
         <h2>DESTINO TURISTICO</h2>
         <select id="Destino"  size="7" name="Destino[] " multiple>
             <option value="cancun">CANCUN</option>
