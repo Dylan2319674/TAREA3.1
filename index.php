@@ -4,7 +4,7 @@
     <form action="resultados.php" method="POST">
         <h2>DESTINO TURISTICO</h2>
         <link rel="stylesheet" href="estilos.css">
-        <select id="Destino"  size="7" name="Destino[] " multiple>
+        <select id="Destino" size="7" name="destinos[]" multiple>
             <option value="CANCUN">CANCUN</option>
             <option value="PUERTO VALLARTA">PUERTO VALLARTA</option>
             <option value="ACAPULCO">ACAPULCO</option>
@@ -67,6 +67,13 @@
             <input type="checkbox" value="GUIA TURISTICO" id="opcion-6" name="servicios[]">
             GUIA TURISTICO  
             </label><BR><BR>
+
+        <h2>DATOS DEL CLIENTE</h2>
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
         <button type="submit">Enviar</button>
     </form>
 </body>
