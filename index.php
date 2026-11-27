@@ -3,7 +3,7 @@
 <body>
     <form action="resultados.php" method="POST">
         <h2>DESTINO TURISTICO</h2>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="estilos.css">
         <select id="Destino"  size="7" name="Destino[] " multiple>
             <option value="CANCUN">CANCUN</option>
             <option value="PUERTO VALLARTA">PUERTO VALLARTA</option>
